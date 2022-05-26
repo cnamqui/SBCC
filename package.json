@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "dependencies": {
+    "config": "^3.3.7",
+    "decimal": "^0.0.2",
+    "express": "^4.18.1",
+    "moment": "^2.29.3",
+    "mongoose": "^6.3.4",
+    "node-cron": "^3.0.0"
+  }
+}
