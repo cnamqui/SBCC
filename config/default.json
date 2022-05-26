@@ -1,0 +1,12 @@
+{
+    "dbConfig":{
+        "host": "localhost",
+        "port": 27017, 
+        "authDb": "admin",
+        "defaultDb":"sbcc",
+        // placeholders - ideally this would be stored elsewhere;
+        "username":"root",
+        "password":"example"
+
+    }
+}
