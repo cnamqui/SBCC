@@ -7,8 +7,7 @@ import moment from 'moment';
 0.85% for amounts over 300€
 */
 export default async function disburse(){
-    await Db.connect();
-    console.log("RAWR");
+    await Db.connect(); 
     const orders = await  Order.find({completed_at:{$ne:null},disbursement_processed_on:{$eq:null}}).populate('merchant');
     
     for(let o of orders){

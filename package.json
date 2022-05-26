@@ -1,4 +1,9 @@
 {
+  "scripts": {
+    "start" : "node ./api/app.js",
+    "bootstrap": "node ./data-bootstrap/bootstrap.js",
+    "disburse": "node ./task-runner/debug.js"
+  },
   "type": "module",
   "dependencies": {
     "config": "^3.3.7",

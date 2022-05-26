@@ -1,7 +1,7 @@
 import {Db,Merchant,Order,Shopper} from "../data-models/index.js"
-import merchantsSample from '.resources/merchants.json' assert { type: 'json' };  
-import shoppersSample from '.resources/shoppers.json' assert { type: 'json' }; 
-import ordersSample from '.resources/orders.json' assert { type: 'json' }; 
+import merchantsSample from './resources/merchants.json' assert { type: 'json' };  
+import shoppersSample from './resources/shoppers.json' assert { type: 'json' }; 
+import ordersSample from './resources/orders.json' assert { type: 'json' }; 
 import moment from 'moment'; 
 
 bootstrap().catch(err => console.log(err));
